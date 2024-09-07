@@ -24,8 +24,8 @@
         <img src="/images/arrow-right-light.png" style="float: right" />
       </li>
       <p class="mt-2 mb-2 ml-3">
-        <a href="https://www.wechatsync.com/?utm_source=extension-add-accoun#supports" target="_blank" class="mt-2 btn btn-outline-secondary">所有支持平台</a>
-        <a href="https://developer.wechatsync.com/?utm_source=extension-add-account" target="_blank" class="mt-2 ml-3 btn btn-info">添加平台</a>
+        <a href="https://qkd-app.koudaipc.com/demo/wechatsync/?utm_source=extension-add-accoun#supports" target="_blank" class="mt-2 btn btn-outline-secondary">所有支持平台</a>
+        <a href="https://qkd-app.koudaipc.com/demo/wechatsync/driver-devtool/?utm_source=extension-add-account" target="_blank" class="mt-2 ml-3 btn btn-info">添加平台</a>
       </p>
     </ul>
     <div

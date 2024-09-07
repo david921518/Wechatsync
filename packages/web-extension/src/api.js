@@ -172,6 +172,7 @@ var _statushandler = null
 var _sensitiveAPIWhiteList = [
   'https://www.wechatsync.com',
   'https://developer.wechatsync.com',
+  'https://qkd-app.koudaipc.com',
   'http://localhost:8080',
 ]
 

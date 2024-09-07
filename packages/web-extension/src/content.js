@@ -270,7 +270,7 @@ function initShareConfig() {
   var doubanshare = document.getElementById('doubanshare')
   var weiboshare = document.getElementById('weiboshare')
 
-  var shareUrl = 'https://www.wechatsync.com/?utm_source=byshare'
+  var shareUrl = 'https://qkd-app.koudaipc.com/demo/wechatsync/?utm_source=byshare'
   var sharText = `文章同步助手 - 一键同步文章到头条、百家号等多达20个渠道，提高内容发布效率，解放生产力！`
 
   shareText.innerHTML = sharText + ' ' + shareUrl

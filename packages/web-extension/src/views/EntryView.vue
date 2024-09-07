@@ -43,7 +43,7 @@
           <template v-if="!remoteStatus.html">
             <p>
               {{ remoteStatus.desc }}
-              <a href="https://www.wechatsync.com/?utm_source=version_notify" target="_blank"
+              <a href="https://qkd-app.koudaipc.com/demo/wechatsync/release/?utm_source=version_notify" target="_blank"
                 >下载最新版本</a
               >
             </p>
@@ -67,10 +67,10 @@
           <h4 class="alert-heading">谢谢支持！</h4>
           <p>
             如果觉得本工具不错，还请分享给你的朋友！！<br>
-            如果你是开发者、欢迎参与进来<a href="https://github.com/wechatsync/Wechatsync/blob/master/CONTRIBUTING.md" target="_blank">wechatsync/Wechatsync</a>
+            如果你是开发者、欢迎参与进来<a href="https://github.com/david921518/Wechatsync/blob/vue2-stable/CONTRIBUTING.md" target="_blank">Wechatsync</a>
           </p>
           <p>
-            使用教程: <a href="https://www.wechatsync.com/blog/?utm_source=tip" target="_blank">传送门</a>
+            使用教程: <a href="https://qkd-app.koudaipc.com/demo/wechatsync/blog/?utm_source=tip" target="_blank">传送门</a>
           </p>
           <hr />
           <p class="mb-0 text-right">by <a href="https://blog.dev4eos.com/about/?utm_source=syncslogon" target="_blank">fun</a></p>
@@ -226,7 +226,7 @@
       <section v-if="currentTab == 'about'">
         <div style="text-align: center; padding-top: 30px">
           <a
-            href="https://www.wechatsync.com/?utm_source=extension_about"
+            href="https://qkd-app.koudaipc.com/demo/wechatsync/?utm_source=extension_about"
             target="_blank"
             ><img src="/images/logo.png" height="60" /> <br />
             <p style="font-size: 22px; color: #222">文章同步助手</p></a
@@ -234,10 +234,10 @@
           <div style="color: #777; margin-top: 50px">
             <p>插件版本：{{ currentVersion }}</p>
             <p v-if="driverVersion">内核版本： {{ driverVersion.version }}</p>
-            <p>Github: <a href="https://github.com/wechatsync/Wechatsync" target="_blank">wechatsync/Wechatsync</a></p>
-            <p>官网: <a href="https://www.wechatsync.com/?utm_source=extension_about" target="_blank">https://www.wechatsync.com/</a></p>
+            <p>Github: <a href="https://github.com/david921518/Wechatsync" target="_blank">Wechatsync</a></p>
+            <p>官网: <a href="https://qkd-app.koudaipc.com/demo/wechatsync/?utm_source=extension_about" target="_blank">https://qkd-app.koudaipc.com/demo/wechatsync/</a></p>
             <p>
-              <a href="https://developer.wechatsync.com/?utm_source=extension-about" target="_blank" class="mt-2 mr-2 btn btn-info">开发者工具</a>
+              <a href="https://qkd-app.koudaipc.com/demo/wechatsync/driver-devtool/?utm_source=extension-about" target="_blank" class="mt-2 mr-2 btn btn-info">开发者工具</a>
               <a href="https://dun.mianbaoduo.com/@fun" target="_blank" class="mt-2 btn btn-outline-secondary">请作者吃饭<span style="">😋</span></a>
             </p>
           </div>
@@ -435,7 +435,7 @@ export default {
       this.syncArticle();
       setTimeout(() => {
         chrome.tabs.create({
-          url: 'https://www.wechatsync.com/blog/?utm_source=how-to-use',
+          url: 'https://qkd-app.koudaipc.com/demo/wechatsync/blog/?utm_source=how-to-use',
         })
       }, 3000)
     },
@@ -450,7 +450,7 @@ export default {
     },
     writeArticle() {
       chrome.tabs.create({
-        url: 'https://www.wechatsync.com/?utm_source=plugin&u='+
+        url: 'https://qkd-app.koudaipc.com/demo/wechatsync/?utm_source=plugin&u='+
           userInfo._id +'#group',
       })
     },

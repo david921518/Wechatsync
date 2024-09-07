@@ -8,14 +8,14 @@
         </span>
         <div style="text-align: center; padding-top: 30px">
           <a
-            href="https://github.com/wechatsync/Wechatsync"
+            href="https://github.com/david921518/Wechatsync"
             target="_blank"
             ><img src="/images/logo.png" height="60" /> <br />
             <p style="font-size: 22px; color: #222; margin-top: 10px">微信公众号同步助手</p></a
           >
           <div style="color: #777; margin-top: 50px">
             <p>插件版本：{{ currentVersion }}</p>
-            <p>Github: <a href="https://github.com/wechatsync/Wechatsync" target="_blank">wechatsync/Wechatsync</a></p>
+            <p>Github: <a href="https://github.com/david921518/Wechatsync" target="_blank">Wechatsync</a></p>
             <p>
               <a href="https://dun.mianbaoduo.com/@fun" target="_blank" class="mt-2 btn btn-outline-secondary">请作者吃饭<span style="">😋</span></a>
             </p>
