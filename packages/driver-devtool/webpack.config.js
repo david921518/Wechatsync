@@ -25,18 +25,20 @@ module.exports = env => {
         }),
       ],
     },
+    performance: { hints: false },
   }
   const devConfigs = {
     mode: 'development',
     devtool: 'inline-source-map',
     devServer: {
-      contentBase: './dist',
+      static: './dist',
     },
     resolve: {
       alias: {
         vue: 'vue/dist/vue.js',
       },
     },
+    performance: { hints: false },
   }
   return merge(
     {
