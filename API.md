@@ -51,13 +51,13 @@ export default class BaseAdapter {
   }
 }
 
-// 注：在`developer.wechatsync.com`里不支持export default的语法，需要用export.driver = BaseAdapter的方式来导出
+// 注：在`https://qkd-app.koudaipc.com/demo/wechatsync/driver-devtool/`里不支持export default的语法，需要用export.driver = BaseAdapter的方式来导出
 ```
 
-已有适配器 [参考](https://github.com/wechatsync/Wechatsync/tree/master/packages/%40wechatsync/drivers/src)，便于调试的[开发者工具](https://developer.wechatsync.com/?utm_source=doc)
+已有适配器 [参考](https://github.com/david921518/Wechatsync/tree/vue2-stable/packages/%40wechatsync/drivers/src)，便于调试的[开发者工具](https://qkd-app.koudaipc.com/demo/wechatsync/driver-devtool/)
 
 ### 适配器API
-适配器隔离运行在JS VM里，提供了一些库和一些函数，[详见](https://github.com/wechatsync/Wechatsync/blob/master/packages/web-extension/src/runtime.js)
+适配器隔离运行在JS VM里，提供了一些库和一些函数，[详见](https://github.com/david921518/Wechatsync/blob/vue2-stable/packages/web-extension/src/runtime.js)
 - `$` - jQuery库
 - `axios` - axios请求库
 - `turndown` - HTML转Markdown库

@@ -9,7 +9,7 @@
 
 ![](snapshots/wechatsync.png)
 
-[API文档](https://github.com/wechatsync/Wechatsync/blob/master/API.md)
+[API文档](https://github.com/david921518/Wechatsync/blob/vue2-stable/API.md)
 
 
 ## 特性
@@ -73,7 +73,7 @@ https://github.com/wechatsync/article-syncjs
 
 #### 开发者模式安装
 
-1. [下载](http://wpics.oss-cn-shanghai.aliyuncs.com/WechatSync.zip?date=0625) 并解压
+1. [下载](https://qkd-app.koudaipc.com/demo/wechatsync/WechatSync.zip) 并解压
 2. 打开 chrome://extensions
 3. 右上角“开启开发者模式”
 4. 拖入解压后的文件夹到浏览器插件页

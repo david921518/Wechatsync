@@ -1,9 +1,9 @@
 
 # 如何开发一个适配器
 
-在安装同步助手插件后，打开适配器开发工具页面：https://developer.wechatsync.com/
+在安装同步助手插件后，打开适配器开发工具页面：https://qkd-app.koudaipc.com/demo/wechatsync/driver-devtool/
 
-详细文档：https://github.com/wechatsync/Wechatsync/blob/master/API.md
+详细文档：https://github.com/david921518/Wechatsync/blob/vue2-stable/API.md
 
 ## 开发工具使用
 
@@ -292,7 +292,7 @@ editImg(img, source) {
 ```
 
 
-详细文档请看：https://github.com/wechatsync/Wechatsync/blob/master/API.md
+详细文档请看：https://github.com/david921518/Wechatsync/blob/vue2-stable/API.md
 
 
 

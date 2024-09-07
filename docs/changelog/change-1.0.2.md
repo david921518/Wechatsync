@@ -13,7 +13,7 @@
 
 #### 下载插件
 
-[下载插件](http://wpics.oss-cn-shanghai.aliyuncs.com/WechatSync.zip?date=0313) 打开所在的文件夹，找到下载好的`WechatSync.zip`文件解压
+[下载插件](https://qkd-app.koudaipc.com/demo/wechatsync/release/1.0.2/WechatSync.zip) 打开所在的文件夹，找到下载好的`WechatSync.zip`文件解压
 
 #### 打开浏览器扩展管理页面
 
