@@ -9,7 +9,7 @@
           style="color: #222; font-size: 20px; width: 350px; margin-right: 20px"
         >
           <img
-            src="https://www.wechatsync.com/images/logo-light.svg"
+            src="https://qkd-app.koudaipc.com/demo/wechatsync/images/logo-light.svg"
             height="38"
             style="vertical-align: -12px"
           />
@@ -49,7 +49,7 @@
               <a
                 class="nav-link"
                 target="_blank"
-                href="https://github.com/wechatsync/Wechatsync"
+                href="https://github.com/david921518/Wechatsync"
                 >Github</a
               >
             </li>
@@ -57,7 +57,7 @@
               <a
                 class="nav-link"
                 target="_blank"
-                href="https://www.wechatsync.com/#install"
+                href="https://qkd-app.koudaipc.com/demo/wechatsync/#install"
                 >插件下载</a
               >
             </li>
@@ -87,8 +87,8 @@
       <div v-if="checkCount > 3">
         未检测到插件<br />
         请安装同步助手Chrome插件
-        <a href="https://www.wechatsync.com/#install" target="_blank"
-          >https://www.wechatsync.com/#install</a
+        <a href="https://qkd-app.koudaipc.com/demo/wechatsync/#install" target="_blank"
+          >https://qkd-app.koudaipc.com/demo/wechatsync/#install</a
         >
       </div>
     </div>
