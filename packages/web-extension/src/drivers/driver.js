@@ -107,13 +107,14 @@ export function getDriver(account) {
     return new JuejinAdapter(account)
   }
 
-  if (account.type == 'csdn') {
+  if (account.type == 'csdn' || account.type == 'CSDN') {
     return new CSDNAdapter(account)
   }
 
   if (account.type == 'cnblog') {
     return new CnblogAdapter(account)
   }
+
   if (account.type == 'weixin') {
     return new WeixinAdapter(account)
   }
@@ -163,7 +164,7 @@ export function getDriver(account) {
     return new YuQueAdapter(account)
   }
 
-  throw Error('not supprt account type')
+  throw Error('not support account type')
 }
 
 const chunk = (arr, size) => Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
