@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <a href="/" class="logo">
+    <a href="https://qkd-app.koudaipc.com/demo/wechatsync/driver-devtool/" class="logo">
       <v-icon name="logo" />&nbsp;<span>开发者工具</span>
     </a>
     <div class="right-content">
@@ -64,12 +64,12 @@ export default {
         {
           name: 'github',
           title: 'GitHub',
-          url: 'https://github.com/wechatsync/Wechatsync',
+          url: 'https://github.com/david921518/Wechatsync',
         },
         {
           name: 'download',
           title: '插件下载',
-          url: 'https://www.wechatsync.com/#install',
+          url: 'https://qkd-app.koudaipc.com/demo/wechatsync/#install',
         },
       ],
       isModalVisible: this.$isRookie,

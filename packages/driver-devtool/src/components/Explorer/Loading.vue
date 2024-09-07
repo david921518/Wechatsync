@@ -4,8 +4,8 @@
       <h1>未检测到插件</h1>
       <h3>请安装同步助手Chrome插件</h3>
       <p>
-        <a href="https://www.wechatsync.com/#install" target="_blank"
-          >https://www.wechatsync.com/#install</a
+        <a href="https://qkd-app.koudaipc.com/demo/wechatsync/#install" target="_blank"
+          >https://qkd-app.koudaipc.com/demo/wechatsync/#install</a
         >
       </p>
     </div>
