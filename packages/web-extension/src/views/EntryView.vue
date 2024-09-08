@@ -441,7 +441,7 @@ export default {
     },
     faq() {
       chrome.tabs.create({
-        url: 'https://support.qq.com/products/105772',
+        url: 'https://github.com/david921518/Wechatsync/issues/new',
       })
     },
     syncArticle() {
